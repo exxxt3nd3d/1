@@ -1,0 +1,28 @@
+x = float(input("Print x: "))
+y = float(input("Print y: "))
+
+z = None
+
+if operation == "+":
+    z = x + y
+    print("x + y = ", z)
+
+elif operation == "-":
+    z = x - y
+    print("x - y = ", z)
+    
+elif operation == "*":
+    z = x * y
+    print("x * y = ", z)
+
+elif operation == "/":
+	z = x / y
+	print("x / y = ", z)
+
+else:
+    print("Unknow operation")
+    
+if z is not None:
+    print("Result ", z)
+
+input("Press any key to continue...")
